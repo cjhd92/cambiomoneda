@@ -1,0 +1,136 @@
+
+ /* *******************************************************************************
+*************************************** WEB ***********************************
+ ******************************************************************************* */
+
+.flex_row {
+    display       : flex;
+    flex-direction: row;
+    width         : 100% !important;
+  }
+
+
+  .flex_row25 {
+    display       : flex;
+    flex-direction: row;
+    width         : 25% !important;
+    margin-top: 2%;
+  }
+  
+  
+  
+  .flex_column {
+    display       : flex;
+    flex-direction: column;
+    width         : 100% !important;
+  }
+
+
+  .flex_centered {
+    display        : flex !important;
+    justify-content: center !important;
+    align-items    : center !important;
+    text-align     : center;
+  }
+
+  .logo{
+      width:9.5%;
+      height: 9.5%;
+      margin-top: 7%;
+  }
+
+  .estiloTexto{
+      color: rgb(95,186,167);
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 1.5%;
+  }
+
+  .descrip{
+    margin-top: 1.5%;
+  }
+
+  .btnColor{
+      background-color: rgb(95,186,167);
+      color:white;
+  }
+
+  .vistaMovil{
+    display       : flex;
+  }
+
+  .selectSize{
+    width: 50%;
+  }
+
+  .inputDiseño{
+    border: 0;
+    background: transparent; 
+    font-size: 30px;
+    text-align: right;
+    
+    width: 100%;
+
+  }
+
+  select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+ /* *******************************************************************************
+*************************************** Moil ***********************************
+ ******************************************************************************* */
+
+  @media (max-width: 576px) {
+
+    .logo{
+      width:45%;
+      height: 45%;
+      margin-top: 15%;
+  }
+
+  .flex_row25 {
+    display       : flex;
+    flex-direction: row;
+    width         : 90% !important;
+    margin-top: 2%;
+  }
+
+  .vistaMovil{
+    display       : none;
+  }
+
+  .selectSize{
+    width: 65%;
+  }
+
+  .inputDiseño{
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+  }
+  }
+
+
+
+ /* *******************************************************************************
+*************************************** PAD ***********************************
+ ******************************************************************************* */
+
+@media (min-width: 577px) and (max-width: 768px) {
+ 
+  .logo{
+    width:25%;
+    height: 25%;
+    margin-top: 25%;
+}
+
+.flex_row25 {
+  display       : flex;
+  flex-direction: row;
+  width         : 60% !important;
+  margin-top: 3%;
+}
+  }
